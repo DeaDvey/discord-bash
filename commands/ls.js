@@ -7,7 +7,7 @@ module.exports = {
 
     async execute(bot, interaction) {
     
-        await interaction.reply({ content: 'List files and directories in the current directory', ephemeral: false })
+        await interaction.reply({ content: 'List files and directories in the current directory\nDocuments   Music   Pictures   Downloads   Videos', ephemeral: false })
 
     }
 }
