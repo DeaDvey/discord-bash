@@ -1,0 +1,23 @@
+{
+  "name": "discord-bash",
+  "version": "1.0.0",
+  "description": "discord bot that outputs the result of some bash commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeaDvey/discord-bash.git"
+  },
+  "author": "DeaDvey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeaDvey/discord-bash/issues"
+  },
+  "homepage": "https://github.com/DeaDvey/discord-bash#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^14.11.0"
+  }
+}
