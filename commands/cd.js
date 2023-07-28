@@ -7,7 +7,7 @@ module.exports = {
 
     async execute(bot, interaction) {
     
-        await interaction.reply({ content: 'Change the current directory, .. for parent directory', ephemeral: false })
+        await interaction.reply({ content: 'Change the current directory\n```> cd Pictures\n[Changes directory to Pictures``````> cd ..\n[Changes directory to parent directory]```', ephemeral: false })
 
     }
 }
