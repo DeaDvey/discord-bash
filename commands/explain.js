@@ -14,6 +14,12 @@ module.exports = {
         if (command === 'cd') {
             await interaction.reply({ content: 'Changes directory', ephemeral: false })
         }
+	if (command === 'ls') {
+	    await interaction.reply({ content: 'Lists contents of current directory', ephemeral: false }) 
+	}
+	if (command === 'sudo') {
+		await interaction.reply({ content: 'runs the following command as superuser', ephemeral: false })
+	}
         else {
             await interaction.reply({ content: 'Unknown command', ephemeral: false })
         }
