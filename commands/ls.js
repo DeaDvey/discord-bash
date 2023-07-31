@@ -3,7 +3,7 @@ const { SlashCommandBuilder } = require('discord.js');
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('ls')
-    .setDescription('explains ls command'),
+    .setDescription('Runs the ls command'),
 
     async execute(bot, interaction) {
     
